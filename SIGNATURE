@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2c6fbe87425b819117a5c79ef017935bb7d14559 Build.PL
+SHA1 196426dfe33dec30d797aa6b33505dd179960c22 Changes
+SHA1 bd308f35fdb02befa5e36465df696796215bc557 MANIFEST
+SHA1 52fdfc7c3615f6c8df56728fe34e153fbc33ac63 META.yml
+SHA1 f94ab76decfc25f68a96072ffd09542e092d26c7 Makefile.PL
+SHA1 6ae268241d6e3ba2f4a08ccc5da6fb99582c5560 README
+SHA1 1b373d7d9e12f2b2377e708a5987213f816fa62c lib/Games/PerlWar.pm
+SHA1 efc39c4ce9cc5c66b4cf4fdd432243236c0d6387 lib/Games/PerlWar/AgentEval.pm
+SHA1 b44a9357c5466e428c9b5d55f7703d17b3e6f39c lib/Games/PerlWar/Array.pm
+SHA1 99ab0f1cbf1396bae7649d29890cc2d995d24d63 lib/Games/PerlWar/Cell.pm
+SHA1 28af4d0ea8e026dbbf942b13d8844d560fd510ae lib/Games/PerlWar/Rules.pod
+SHA1 51b76180012349b04ae7f1c99abf0a762394ce31 lib/Games/PerlWar/Shell.pm
+SHA1 9a4c1f19fdec9f2c2984afe1b9064cb372e6dde0 scripts/perlwar
+SHA1 85a8b7125bb0b158452838bac787af42ab068662 scripts/pwcreate
+SHA1 0cb36543efa32e380b2207e1a787887d871eba18 scripts/pwround
+SHA1 fe60feea182d024eb5e06b800d8ceefe8fd61eea scripts/pwupload
+SHA1 d307813a3256479c837a7f28747a1fb4af7aae9d t/01general.t
+SHA1 7e99476dea64916ba97bdbf37181c5607f6dc30a t/configuration.xml
+SHA1 e9c6a5881fc60173fbc8d479c1afd2ce3b43bef1 t/pod.t
+SHA1 0e30d52406ee0b52d8b18d73ad128f9bf159a9e9 t/round_current.xml
+SHA1 8589e41f140e0ec4c75354e74211294cc1cbcff9 web/htaccess
+SHA1 638bcd8c30cf09c72f1deeeee1581d589e95889d web/line.png
+SHA1 81ddb419dc6a1f9035cd75dfc4fa81c4a308ee08 web/logo.png
+SHA1 cda4f7da35abe01ee19b01f776846c782da00a0c web/perlwar.css
+SHA1 fb697a1d04ed5df94af1a103d6258b5b51ee3ae4 web/perlwar.ico
+SHA1 e5d4cae74b135672f3a5c9a9acd017655f07163e web/perlwar.js
+SHA1 7c227ee396d078e635ced0b424cf8a77b7d979b5 web/stylesheets/configuration.xps
+SHA1 fb619dfe158443c7e376481180a3c704ad30690d web/stylesheets/include_config.xps
+SHA1 914ac11db2e8be9136188571590b0c0cdb65b245 web/stylesheets/iteration2html.xps
+SHA1 dca80be83d7fcc4fd8b2b9f51fc21663c39d723e web/stylesheets/upload.xps
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+
+iD8DBQFFO88R34Hwf+GwC4wRAqzdAKC8KoKxtQzW5uzqvep/6R0OwJkEOgCcCJcz
+mdLM38qYCuR0+icvBGsry+s=
+=okgU
+-----END PGP SIGNATURE-----
