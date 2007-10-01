@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile
 (
           'NAME' => 'Games::Perlwar',
-          'VERSION_FROM' => 'lib/Games/PerlWar.pm',
+          'VERSION_FROM' => 'lib/Games/Perlwar.pm',
           'PREREQ_PM' => {
                            'Carp' => '0',
                            'Class::Std' => '0',
@@ -14,8 +14,7 @@ WriteMakefile
                            'Safe' => '0',
                            'XML::LibXML' => '0',
                            'XML::Simple' => '0',
-                           'XML::Writer' => '0',
-                           'version' => '0'
+                           'XML::Writer' => '0'
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [

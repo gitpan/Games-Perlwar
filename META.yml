@@ -1,14 +1,16 @@
 ---
 name: Games-Perlwar
-version: 0.02
+version: 0.03
 author:
   - 'Yanick Champoux <yanick@cpan.org>'
 abstract: |
-  PerlWar is inspired by the classic Corewar game.
+  Perlwar is inspired by the classic Corewar game.
   In this game, players pit snippets of Perl code (called 'agents') 
   against each other in order to gain control of the vicious virtual
   battlefield known as... the Array.
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 build_requires:
   Carp: 0
   Class::Std: 0
@@ -20,21 +22,23 @@ build_requires:
   XML::LibXML: 0
   XML::Simple: 0
   XML::Writer: 0
-  version: 0
 provides:
-  Games::PerlWar:
-    file: lib/Games/PerlWar.pm
-    version: 0.02
-  Games::PerlWar::AgentEval:
-    file: lib/Games/PerlWar/AgentEval.pm
-    version: v0.2.0
-  Games::PerlWar::Array:
-    file: lib/Games/PerlWar/Array.pm
-    version: v0.2.0
-  Games::PerlWar::Cell:
-    file: lib/Games/PerlWar/Cell.pm
-    version: v0.2.0
-  Games::PerlWar::Shell:
-    file: lib/Games/PerlWar/Shell.pm
-    version: v0.2.0
-generated_by: Module::Build version 0.2612
+  Games::Perlwar:
+    file: lib/Games/Perlwar.pm
+    version: 0.03
+  Games::Perlwar::AgentEval:
+    file: lib/Games/Perlwar/AgentEval.pm
+    version: 0.03
+  Games::Perlwar::Array:
+    file: lib/Games/Perlwar/Array.pm
+    version: 0.03
+  Games::Perlwar::Cell:
+    file: lib/Games/Perlwar/Cell.pm
+    version: 0.03
+  Games::Perlwar::Shell:
+    file: lib/Games/Perlwar/Shell.pm
+    version: 0.03
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

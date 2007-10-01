@@ -1,13 +1,13 @@
-package Games::PerlWar::Cell;
+package Games::Perlwar::Cell;
 
 use strict;
 use warnings;
 use Carp;
 
-use version; our $VERSION = qv('0.02');
+our $VERSION = '0.03';
 use Class::Std;
 
-use Games::PerlWar::AgentEval;
+use Games::Perlwar::AgentEval;
 
 my %owner_of          : ATTR( :name<owner> :default<undef> );
 my %facade_of         : ATTR( :set<facade> :init_arg<facade> :default<undef>);
@@ -21,7 +21,7 @@ sub run {
     my %vars;
     %vars = %$vars if $vars;
 
-    return Games::PerlWar::AgentEval->new({
+    return Games::Perlwar::AgentEval->new({
         code => $self->get_code,
         vars => { 
             %vars,

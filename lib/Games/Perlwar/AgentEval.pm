@@ -1,8 +1,8 @@
-package Games::PerlWar::AgentEval;
+package Games::Perlwar::AgentEval;
 
 use strict;
 use warnings;
-use version; our $VERSION = qv('0.02');
+our $VERSION = '0.03';
 
 use Class::Std;
 use Carp;
@@ -129,4 +129,4 @@ sub return_value {
     return $return_value_of{ $id }; 
 }
 
-'end of package Games::PerlWar::AgentEval';
+'end of package Games::Perlwar::AgentEval';
